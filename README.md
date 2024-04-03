@@ -20,7 +20,9 @@ Sub-sub-heading
 Sub-sub-heading
 Sub-sub-heading
 
-
+Soal 3
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+Jawaban: untuk hasilnya sama saja. ketika createContext digunakan di file tersebut, itu dianggap sebagai bagian dari Server Component oleh Next.js secara default, yang menyebabkan kesalahan yang Anda alami.Untuk memperbaiki kesalahan ini, Anda perlu memastikan bahwa file yang memanggil createContext berada dalam Client Component dengan menambahkan hook useClient. 
 
 
 
