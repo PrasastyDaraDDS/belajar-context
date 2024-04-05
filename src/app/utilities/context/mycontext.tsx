@@ -1,2 +1,8 @@
 import { createContext } from "react";
-export const LevelContext =  createContext(1);
+import { themes } from "./themes/mythemes";
+export const LevelContext =  createContext(0);
+
+export const themeContext = createContext({
+    theme: themes.light,
+    toggleTheme: () => {},
+});

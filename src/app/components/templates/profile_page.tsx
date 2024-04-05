@@ -1,3 +1,4 @@
+import React from 'react';
 import Heading from "../atoms/heading";
 import Post from "../atoms/post";
 import Section2 from "../atoms/section2";

@@ -1,3 +1,4 @@
+// Jika komponen-komponen tersebut diimpor dari file yang benar
 import Heading from "../atoms/heading";
 import Section from "../atoms/section";
 
